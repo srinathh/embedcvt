@@ -1,6 +1,7 @@
 # embedcvt
 Command embedcvt creates a Go program file that embeds the contents of the specified 
-asset file(s) as simple byte-array variables.
+asset file(s) as simple base64 constant that can be retrieved
+by calling a getter function unique to the asset.
 
 ## Background
 embedcvt is meant for simple data embedding use cases like inlining test data,
